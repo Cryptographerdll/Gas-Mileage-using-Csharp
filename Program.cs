@@ -32,6 +32,8 @@ namespace GasMileage
 
                 Console.WriteLine("please enter gallons you used for your trip {0} #", counter);
                 GallonsUsed = Convert.ToInt32(Console.ReadLine());
+                
+                counter++;
 
                 sumMiles += MilesDriven;
                 sumGallons += GallonsUsed;
